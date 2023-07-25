@@ -1,0 +1,431 @@
+body{
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #DBF1F7 0%,
+    #DBF1F7 40%,
+    white 40%,
+    white 100%); 
+}
+
+.temp1 {
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: 1s;
+}
+
+.temp1:hover {
+	transform:scale(1.1);
+	z-index:2;
+	
+}
+
+
+.img1{
+	width: 100%;
+	margin-top:150px;
+	max-height: 500px;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 6px 8px 25px -3px #30ADD0;
+}
+
+.img2{
+	width: 100%;
+	margin-top:60px;
+	max-height: 500px;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 6px 8px 25px -3px #30ADD0;
+}
+ 
+.container{
+	position: relative;
+    z-index: 999;
+	max-height: 550px;
+}
+
+
+.container2{
+	padding: 60px 60px 30px 60px; /*top right bottom left*/
+    min-height: 41vh;
+    width: 100%;
+    /*margin: 2rem auto;*/
+	display: flex;
+	justify-content: center;
+
+}
+
+.box{
+	height:350px;
+	/*border: 2px solid aqua;*/
+	width: 370px;
+}
+
+.box3{
+	/*height:1100px;*/
+	width: 370px;
+}
+
+.title1{
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-size:6rem;
+	color:#30ADD0;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+
+.ele2{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: justify;
+	padding-top: 10px;
+}
+
+.n-text{
+	font-weight: 485;
+	text-align: justify;
+}
+
+/* Button Explore More start */
+
+.buttonex {
+  display: inline-block;
+  background-color: #30ADD0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-top:20px;
+  border-radius: 0 8px 0 8px;
+}
+
+.buttonex:focus {
+  outline: none;
+}
+
+.buttonex span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  z-index: 9;
+}
+
+.buttonex span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonex:hover span {
+  padding-right: 25px;
+}
+
+.buttonex:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Style the checkbox to hide it */
+
+#expand-checkbox {
+	display: none;
+}
+
+/* Style the additional content and hide it by default */
+
+.content1 {
+	display: none;
+	padding-top: 58px;
+}
+
+/* When the checkbox is checked, show the additional content */
+
+#expand-checkbox:checked ~ .content1 {
+    display: block;
+}
+
+.ele3{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: left;
+	padding-top: 56px;
+	z-index: 8;
+}
+
+.footern{
+	padding: 8px 0;
+}
+/*------------------------------------*/
+
+@media (max-width: 575px) {
+
+body{
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #DBF1F7 0%,
+    #DBF1F7 40%,
+    white 40%,
+    white 100%); 
+}
+
+.img1{
+	width: 100%;
+	padding-top:0px;
+	max-height: 500px;
+}
+
+.img1-n{
+	margin-top:90px;
+
+}
+
+.img2{
+	width: 100%;
+	padding-top: 0px;
+	max-height: 500px;
+	
+}
+
+
+.container{
+	position: relative;
+    z-index: 999;
+	max-height: 550px;
+}
+
+
+.container2{
+	padding: 60px 60px 30px 60px; /*top right bottom left*/
+    min-height: 41vh;
+    width: 100%;
+    /*margin: 2rem auto;*/
+	display: flex;
+	justify-content: center;
+
+}
+
+.box{
+	height:175px;
+	/*border: 2px solid aqua;*/
+	width: 370px;
+	top: 1400px
+}
+
+.box3{
+	/*height:1100px;*/
+	width: 370px;
+}
+
+.title1{
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-size:3rem;
+	color:#30ADD0;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+	
+.col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+	
+.ele2{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: justify;
+	padding-top: 110px;
+	font-size: 0.8rem;
+	
+}
+
+/* Button Explore More start */
+
+.buttonex {
+  display: inline-block;
+  background-color: #30ADD0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top:20px;
+}
+
+
+.buttonex span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  z-index: 999;
+}
+
+
+/* Style the additional content and hide it by default */
+
+.content1 {
+	display: none;
+}
+
+.ele3{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: left;
+	padding-top: 1800px;
+}
+}
+
+/*------------------------------------*/
+
+@media (max-width: 768px) {
+body{
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #DBF1F7 0%,
+    #DBF1F7 40%,
+    white 40%,
+    white 100%); 
+}
+
+.img1{
+	width: 93%;
+	padding-top:0px;
+	max-height: 500px;
+	margin-top: 62px;
+	margin-left: 16px;
+}
+
+.img1-n{
+	margin-top:80px;
+
+}
+
+.img2{
+	width: 93%;
+	padding-top: 0px;
+	max-height: 500px;
+	margin-left: 16px;
+	
+}
+
+
+.container{
+	position: relative;
+    z-index: 999;
+	max-height: 550px;
+}
+
+
+.container2{
+	padding: 60px 60px 30px 60px; /*top right bottom left*/
+    min-height: 41vh;
+    width: 100%;
+    /*margin: 2rem auto;*/
+	display: flex;
+	justify-content: center;
+
+}
+
+.box{
+	height:175px;
+	/*border: 2px solid aqua;*/
+	width: 370px;
+	top: 1400px
+}
+
+.box3{
+	/*height:1100px;*/
+	width: 370px;
+}
+
+.title1{
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-size:3rem;
+	color:#30ADD0;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+	
+.col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+	
+.ele2{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: justify;
+	padding-top: 60px;
+	font-size: 0.8rem;
+	
+}
+
+/* Button Explore More start */
+
+.buttonex {
+  display: inline-block;
+  background-color: #30ADD0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top:20px;
+  z-index: 99;
+}
+
+
+.buttonex span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  z-index: 999;
+}
+
+
+/* Style the additional content and hide it by default */
+
+.content1 {
+	display: none;
+}
+
+.ele3{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: left;
+	padding-top: 1664px;
+}
+}
+
+/*------------------------------------*/

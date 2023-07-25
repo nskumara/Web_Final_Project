@@ -1,0 +1,255 @@
+body{
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #DBF1F7 0%,
+    #DBF1F7 40%,
+    white 40%,
+    white 100%); 
+}
+
+.temp1 {
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: 1s;
+}
+
+.temp1:hover {
+	transform:scale(1.1);
+	z-index:2;
+}
+
+
+.img1{
+	width: 100%;
+	margin-top:150px;
+	max-height: 500px;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 6px 8px 25px -3px #30ADD0;
+}
+
+.img2{
+	width: 100%;
+	margin-top:60px;
+	max-height: 500px;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 6px 8px 25px -3px #30ADD0;
+}
+ 
+.container{
+	position: relative;
+    z-index: 999;
+	max-height: 550px;
+}
+
+
+.container2{
+	padding: 60px 60px 30px 60px; /*top right bottom left*/
+    min-height: 41vh;
+    width: 100%;
+    /*margin: 2rem auto;*/
+	display: flex;
+	justify-content: center;
+
+}
+
+.box{
+	height:415px;
+	/*border: 2px solid aqua;*/
+	width: 170px;
+}
+
+.box3{
+	height:560px;
+	width: 370px;
+}
+
+.title1{
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-size:6rem;
+	color:#30ADD0;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+
+
+.ele2{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: justify;
+	padding-top: 10px;
+}
+
+.n-text{
+	font-weight: 485;
+	text-align: justify;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #30ADD0 !important;
+  border-color: #30ADD0 !important;
+}
+
+.content1-contact-info{
+	font-size:0.8rem;
+	font-weight: 600;
+	text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.information-box-inner0{
+	background-color: white;
+	padding:15px 7px 5px 15px;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 6px 8px 25px -3px #30ADD0;
+	width:64%;
+	opacity: 0.8;
+	margin-left: 18%;
+    margin-top: -4%;
+}
+
+.information-box-inner1{
+	background-color: white;
+	padding:15px 7px 5px 15px;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 6px 8px 25px -3px #30ADD0;
+	width:63%;
+	opacity: 0.8;
+	margin-left: 37%;
+	margin-top: -75px;
+}
+
+.information-box-inner2{
+	background-color: white;
+	padding:15px 7px 5px 15px;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 6px 8px 25px -3px #30ADD0;
+	width:64%;
+	opacity: 0.8;
+	margin-left: -1%;
+	margin-top: -75px;
+}
+
+.dancer-image{
+    width: 130%;
+    /* max-height: 18%; */
+    /* padding: 20px; */
+    margin-top: -222px;
+    right: 0px;
+    filter: opacity(0.6);
+}
+
+.container4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+.con-box {
+	width:80%;
+	/*border: 2px solid aqua;*/
+	padding: 0px 0px 0px 25px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.contact-details-h1{
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: #30ADD0;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+
+/*------------------------------------*/
+
+@media (max-width: 575px) {
+
+body{
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #DBF1F7 0%,
+    #DBF1F7 40%,
+    white 40%,
+    white 100%); 
+}
+
+.img1{
+	width: 100%;
+	padding-top:50px;
+	max-height: 500px;
+}
+
+.img2{
+	width: 100%;
+	padding-top:50px;
+	max-height: 500px;
+	
+}
+ 
+.container{
+	position: relative;
+    z-index: 999;
+	max-height: 550px;
+}
+
+
+.container2{
+	padding: 60px 60px 30px 60px; /*top right bottom left*/
+    min-height: 41vh;
+    width: 100%;
+    /*margin: 2rem auto;*/
+	/*display: flex;*/
+	justify-content: center;
+
+}
+
+.box{
+	height:175px;
+	/*border: 2px solid aqua;*/
+	width: 370px;
+	top: 1400px
+}
+
+.box3{
+	/*height:1100px;*/
+	width: 370px;
+}
+
+.title1{
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-size:3rem;
+	color:#30ADD0;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+	
+.col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+	
+.ele2{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+	text-align: justify;
+	padding-top: 10px;
+	font-size: 0.8rem
+	
+}
+}
